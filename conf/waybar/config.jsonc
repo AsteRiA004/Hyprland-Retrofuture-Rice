@@ -1,0 +1,45 @@
+{
+	"mode": "dock",
+	"position": "top",
+	"layer": "top",
+	"width": 0,
+	"height": 0,
+	"margin": 0,
+	"spacing": 0,
+	"reload_style_on_change": true,
+
+	"include": [
+		"~/.config/waybar/modules/custom/*.jsonc",
+		"~/.config/waybar/modules/hyprland/*.jsonc",
+		"~/.config/waybar/modules/*.jsonc"
+	],
+
+	"modules-left": [],
+
+	"modules-center": [
+
+		//"custom/power",
+		"group/pulseaudio",
+		"clock#date",				
+		//"backlight",		
+		"temperature",
+		"memory",
+
+		"custom/left#bg-3",
+		"cpu",
+
+		"custom/left#bg-4",
+		"custom/distro",
+		"custom/right#bg-4",
+
+		"idle_inhibitor",
+		"clock#time",
+		"custom/right#bg-3",
+		
+		"hyprland/workspaces",
+		"custom/user",
+		
+	],
+
+	"modules-right": []
+}

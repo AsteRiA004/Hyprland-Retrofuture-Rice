@@ -1,0 +1,7 @@
+{
+	"custom/user": {
+		"format": "󰌽",
+		"on-click": "kitty btop",
+		"tooltip-format": "CachyOS"
+	}
+}
